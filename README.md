@@ -3,5 +3,5 @@
 This is the official repository for the GP2 Graduation Project.
 
 ## Team Members
-* [Your Name] - Project Lead
-* ```
+* [Abdulrahman]
+* [Basil]
