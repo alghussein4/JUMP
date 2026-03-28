@@ -5,4 +5,5 @@ This is the official repository for the GP2 Graduation Project.
 ## Team Members
 * [Abdulrahman]
 * [Basil]
-* [OmarArafeh.]
+* [OmarArafeh]
+* [OmarShorufat]
