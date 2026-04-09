@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'JUMP.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'jump_db',
+        'USER': 'postgres', # This is the default Windows username
+        'PASSWORD': '', # Put the password you use to log into pgAdmin
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
