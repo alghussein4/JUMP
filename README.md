@@ -7,3 +7,5 @@ This is the official repository for the GP2 Graduation Project.
 * [Basil]
 * [OmarArafeh]
 * [OmarShorufat]
+
+Basil - OCR and Medical Imaging Module
