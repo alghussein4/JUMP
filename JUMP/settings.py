@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-
+SECRET_KEY = "django-insecure-dev-key-1234567890-change-later"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'accounts',
+    'hospitals.apps.HospitalsConfig',
 ]
 
 MIDDLEWARE = [
@@ -79,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'jump_db',
         'USER': 'postgres', # This is the default Windows username
-        'PASSWORD': '', # Put the password you use to log into pgAdmin
+        'PASSWORD': '', # Put the password you use to log into pgAdmin <----------------------Here!!
         'HOST': 'localhost',
         'PORT': '5432',
     }
